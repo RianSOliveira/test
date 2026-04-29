@@ -1,0 +1,4 @@
+name: CI Node Simples
+on:
+    push:
+    branches: [ "main" ]

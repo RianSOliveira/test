@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "timeout 5s node index.js || [ $? -eq 124 ]"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RianSOliveira/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RianSOliveira/test/issues"
+  },
+  "homepage": "https://github.com/RianSOliveira/test#readme"
+}
